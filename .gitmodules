@@ -1,0 +1,3 @@
+[submodule "khanAcademy"]
+	path = khanAcademy
+	url = https://github.com/gu1nazz/Web-dev.git
