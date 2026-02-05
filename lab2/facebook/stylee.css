@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: whitesmoke;
+}
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.left{
+    max-width: 520px;
+}
+
+.facebook{
+    margin: 0 0 10px;
+    font-size: 64px;
+    font-weight: 800;
+    color: dodgerblue;
+}
+
+.text{
+    font-size: 28px;
+    color: black;
+    line-height: 1.2;
+}
+
+
+.right{
+    width: 396px;
+}
+
+.card{
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px gray;
+}
+
+.field{
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.field:focus{
+    outline: none;
+    border-color: dodgerblue;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 12px 0;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    filter: brightness(0.95);
+}
+
+.recover{
+    display: block;
+    margin: 14px 0;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.recover:hover{
+    text-decoration: underline;
+}
+
+.line{
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 16px 0;
+}
+
+.signup{
+    display: block;
+    margin: 0 auto;
+    padding: 12px 18px;
+    background: limegreen;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signup:hover{
+    filter: brightness(0.95);
+}
+
+.create{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+
+.footer{
+    background: white;
+    padding: 30px 0 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.languages,
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.languages .plus{
+    border: 1px solid silver;
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.footer hr{
+    border: none;
+    border-top: 1px solid lightgray;
+    margin: 10px 0;
+}
+
+.meta{
+    margin-top: 15px;
+}
